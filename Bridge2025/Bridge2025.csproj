@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType> <!-- Vigtigt: DLL -->
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile> <!-- XML -->
+        <DocumentationFile>$(OutputPath)Bridge2025.xml</DocumentationFile>
+    </PropertyGroup>
+
+</Project>

@@ -1,0 +1,114 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Bridge2025/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Bridge2025.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bridge2025.dll": {}
+        }
+      },
+      "ClassLibrary6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/ClassLibrary6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibrary6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bridge2025/1.0.0": {
+      "type": "project",
+      "path": "../Bridge2025/Bridge2025.csproj",
+      "msbuildProject": "../Bridge2025/Bridge2025.csproj"
+    },
+    "ClassLibrary6/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary6/ClassLibrary6.csproj",
+      "msbuildProject": "../ClassLibrary6/ClassLibrary6.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Bridge2025 >= 1.0.0",
+      "ClassLibrary6 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/sams/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj",
+      "projectName": "StorebæltTicketLibrary",
+      "projectPath": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj",
+      "packagesPath": "/Users/sams/.nuget/packages/",
+      "outputPath": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/sams/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/Users/sams/Desktop/ClassLibrary6/Bridge2025/Bridge2025.csproj": {
+              "projectPath": "/Users/sams/Desktop/ClassLibrary6/Bridge2025/Bridge2025.csproj"
+            },
+            "/Users/sams/Desktop/ClassLibrary6/ClassLibrary6/ClassLibrary6.csproj": {
+              "projectPath": "/Users/sams/Desktop/ClassLibrary6/ClassLibrary6/ClassLibrary6.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
