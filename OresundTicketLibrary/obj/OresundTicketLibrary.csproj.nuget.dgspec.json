@@ -147,8 +147,8 @@
               "/Users/sams/Desktop/ClassLibrary6/Bridge2025/Bridge2025.csproj": {
                 "projectPath": "/Users/sams/Desktop/ClassLibrary6/Bridge2025/Bridge2025.csproj"
               },
-              "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj": {
-                "projectPath": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj"
+              "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj": {
+                "projectPath": "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj": {
+    "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj",
-        "projectName": "StorebæltTicketLibrary",
-        "projectPath": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/StorebæltTicketLibrary.csproj",
+        "projectUniqueName": "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj",
+        "projectName": "StoreBaeltTicketLibrary",
+        "projectPath": "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj",
         "packagesPath": "/Users/sams/.nuget/packages/",
-        "outputPath": "/Users/sams/Desktop/ClassLibrary6/StorebæltTicketLibrary/obj/",
+        "outputPath": "/Users/sams/Desktop/ClassLibrary6/StoreBaeltTicketLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sams/.nuget/NuGet/NuGet.Config"

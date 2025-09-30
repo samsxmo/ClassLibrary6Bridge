@@ -100,12 +100,9 @@
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/ClassLibrary6.dll
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/OresundTicketLibrary.dll
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/OresundTicketLibraryTest.dll
-/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StorebæltTicketLibrary.dll
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/VehicleUnitTest.dll
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/OresundTicketLibraryTest.pdb
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/OresundTicketLibrary.pdb
-/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StorebæltTicketLibrary.pdb
-/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StorebæltTicketLibrary.xml
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/VehicleUnitTest.pdb
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/Bridge2025.pdb
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/Bridge2025.xml
@@ -116,3 +113,6 @@
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/obj/Debug/net9.0/TicketLibrarytest.pdb
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/obj/Debug/net9.0/TicketLibrarytest.genruntimeconfig.cache
 /Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/obj/Debug/net9.0/ref/TicketLibrarytest.dll
+/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StoreBaeltTicketLibrary.dll
+/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StoreBaeltTicketLibrary.pdb
+/Users/sams/Desktop/ClassLibrary6/TicketLibrarytest/bin/Debug/net9.0/StoreBaeltTicketLibrary.xml

@@ -56,7 +56,7 @@ namespace CarUnitTest
 
             var exception = Assert.Throws<ArgumentException>(() => new Car(longLicensePlate, DateTime.Now, false));
 
-            Assert.Equal("License plate cannot be longer than 7 digits.", exception.Message);
+            Assert.Equal("License plate cannot be longer than 7 characters.", exception.Message);
                                                                 
         }
 

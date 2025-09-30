@@ -19,3 +19,6 @@
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/obj/Debug/net9.0/OresundTicketLibrary.pdb
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/obj/Debug/net9.0/ref/OresundTicketLibrary.dll
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/bin/Debug/net9.0/StorebæltTicketLibrary.xml
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/bin/Debug/net9.0/StoreBaeltTicketLibrary.dll
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/bin/Debug/net9.0/StoreBaeltTicketLibrary.pdb
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibrary/bin/Debug/net9.0/StoreBaeltTicketLibrary.xml

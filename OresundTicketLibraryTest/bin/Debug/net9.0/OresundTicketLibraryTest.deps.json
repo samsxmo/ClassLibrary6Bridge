@@ -360,7 +360,7 @@
       "OresundTicketLibrary/1.0.0": {
         "dependencies": {
           "Bridge2025": "1.0.0",
-          "StorebæltTicketLibrary": "1.0.0"
+          "StoreBaeltTicketLibrary": "1.0.0"
         },
         "runtime": {
           "OresundTicketLibrary.dll": {
@@ -369,13 +369,13 @@
           }
         }
       },
-      "StorebæltTicketLibrary/1.0.0": {
+      "StoreBaeltTicketLibrary/1.0.0": {
         "dependencies": {
           "Bridge2025": "1.0.0",
           "ClassLibrary6": "1.0.0"
         },
         "runtime": {
-          "StorebæltTicketLibrary.dll": {
+          "StoreBaeltTicketLibrary.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -509,7 +509,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "StorebæltTicketLibrary/1.0.0": {
+    "StoreBaeltTicketLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

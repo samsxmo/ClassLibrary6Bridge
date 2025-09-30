@@ -437,7 +437,7 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Bridge2025": "1.0.0",
-          "StorebæltTicketLibrary": "1.0.0"
+          "StoreBaeltTicketLibrary": "1.0.0"
         },
         "compile": {
           "bin/placeholder/OresundTicketLibrary.dll": {}
@@ -446,7 +446,7 @@
           "bin/placeholder/OresundTicketLibrary.dll": {}
         }
       },
-      "StorebæltTicketLibrary/1.0.0": {
+      "StoreBaeltTicketLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -454,10 +454,10 @@
           "ClassLibrary6": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/StorebæltTicketLibrary.dll": {}
+          "bin/placeholder/StoreBaeltTicketLibrary.dll": {}
         },
         "runtime": {
-          "bin/placeholder/StorebæltTicketLibrary.dll": {}
+          "bin/placeholder/StoreBaeltTicketLibrary.dll": {}
         }
       }
     }
@@ -996,10 +996,10 @@
       "path": "../OresundTicketLibrary/OresundTicketLibrary.csproj",
       "msbuildProject": "../OresundTicketLibrary/OresundTicketLibrary.csproj"
     },
-    "StorebæltTicketLibrary/1.0.0": {
+    "StoreBaeltTicketLibrary/1.0.0": {
       "type": "project",
-      "path": "../StorebæltTicketLibrary/StorebæltTicketLibrary.csproj",
-      "msbuildProject": "../StorebæltTicketLibrary/StorebæltTicketLibrary.csproj"
+      "path": "../StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj",
+      "msbuildProject": "../StoreBaeltTicketLibrary/StoreBaeltTicketLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {

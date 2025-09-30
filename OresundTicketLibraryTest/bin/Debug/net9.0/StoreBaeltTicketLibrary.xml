@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoreBaeltTicketLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:StorebaeltLibrary.ITicketRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebaeltLibrary.ITicketRepository.AddTicket(StorebaeltLibrary.TicketLibrary)">
+            <summary>
+            
+            </summary>
+            <param name="ticket"></param>
+        </member>
+        <member name="M:StorebaeltLibrary.ITicketRepository.GetAllTickets">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebaeltLibrary.ITicketRepository.GetTicketsByLicenseplate(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="licenseplate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StorebaeltLibrary.TicketLibrary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketLibrary.#ctor(System.String,System.String,System.Boolean,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="vehicleType"></param>
+            <param name="licensePlate"></param>
+            <param name="hasBrobizz"></param>
+            <param name="date"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketLibrary.Price">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketLibrary.VehicleType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:StorebaeltLibrary.TicketRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketRepository.AddTicket(StorebaeltLibrary.TicketLibrary)">
+            <summary>
+            
+            </summary>
+            <param name="ticket"></param>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketRepository.GetAllTickets">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebaeltLibrary.TicketRepository.GetTicketsByLicenseplate(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="licenseplate"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

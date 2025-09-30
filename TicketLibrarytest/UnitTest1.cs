@@ -1,7 +1,7 @@
-﻿using StorebæltLibrary;
-using ClassLibrary6;
+﻿using ClassLibrary6;
+using StorebaeltLibrary;
 
-namespace StorebæltTicketLibraryTest
+namespace StorebaeltTicketLibraryTest
 {
     public class TicketRepositoryTests
     {
@@ -39,7 +39,7 @@ namespace StorebæltTicketLibraryTest
             {
                 var car1 = new TicketLibrary("Car","CA12345",  true, DateTime.Now);
                 var car2 = new TicketLibrary("Car","CA12345",  false, DateTime.Now);
-                var mC = new TicketLibrary( "MC","MC12345", true, DateTime.Now);
+                var mC = new TicketLibrary( "MC","BX80555", true, DateTime.Now);
                 //var ca12345Tickets = _repository.GetTicketsByLicenseplate ("CA12345");
                 
                 _repository.AddTicket(car1);

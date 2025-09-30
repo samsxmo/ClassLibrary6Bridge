@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCUnitTest", "MCUnitTest\MC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleUnitTest", "VehicleUnitTest\VehicleUnitTest.csproj", "{02CE7AF6-DA4E-475F-9E2D-B957E2EE13E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorebæltTicketLibrary", "StorebæltTicketLibrary\StorebæltTicketLibrary.csproj", "{53DAE175-1578-4779-93E9-8D3C578CF0D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBaeltTicketLibrary", "StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj", "{53DAE175-1578-4779-93E9-8D3C578CF0D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OresundTicketLibrary", "OresundTicketLibrary\OresundTicketLibrary.csproj", "{C3668DAE-E9C2-4760-A453-FF86E041A28B}"
 EndProject

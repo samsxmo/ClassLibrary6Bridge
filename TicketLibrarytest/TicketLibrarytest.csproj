@@ -22,7 +22,7 @@
     <ItemGroup>
       <ProjectReference Include="..\OresundTicketLibraryTest\OresundTicketLibraryTest.csproj" />
       <ProjectReference Include="..\OresundTicketLibrary\OresundTicketLibrary.csproj" />
-      <ProjectReference Include="..\StorebæltTicketLibrary\StorebæltTicketLibrary.csproj" />
+      <ProjectReference Include="..\StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj" />
       <ProjectReference Include="..\VehicleUnitTest\VehicleUnitTest.csproj" />
     </ItemGroup>
 

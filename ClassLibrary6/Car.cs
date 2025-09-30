@@ -8,7 +8,7 @@ public class Car : Vehicle
         if (string.IsNullOrEmpty(licenseplate))
             throw new ArgumentException("License plate cannot be empty.");
         if (licenseplate.Length > 7)
-            throw new ArgumentException("License plate cannot be longer than 7 digits.");
+            throw new ArgumentException("License plate cannot be longer than 7 characters.");
     }
 //public override double Price()
     //{

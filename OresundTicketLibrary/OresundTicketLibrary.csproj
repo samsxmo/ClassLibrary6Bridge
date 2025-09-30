@@ -15,7 +15,7 @@
     
     <ItemGroup>
       <ProjectReference Include="..\Bridge2025\Bridge2025.csproj" />
-      <ProjectReference Include="..\StorebæltTicketLibrary\StorebæltTicketLibrary.csproj" />
+      <ProjectReference Include="..\StoreBaeltTicketLibrary\StoreBaeltTicketLibrary.csproj" />
     </ItemGroup>
     
     <ItemGroup>

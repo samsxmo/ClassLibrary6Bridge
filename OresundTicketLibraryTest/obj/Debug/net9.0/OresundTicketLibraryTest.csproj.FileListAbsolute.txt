@@ -89,12 +89,10 @@
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/Bridge2025.dll
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/ClassLibrary6.dll
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/OresundTicketLibrary.dll
-/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StorebæltTicketLibrary.dll
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/OresundTicketLibrary.pdb
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/Bridge2025.pdb
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/Bridge2025.xml
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/ClassLibrary6.pdb
-/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StorebæltTicketLibrary.pdb
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/OresundTicketLibraryTest.csproj.AssemblyReference.cache
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/OresundTicketLibraryTest.GeneratedMSBuildEditorConfig.editorconfig
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/OresundTicketLibraryTest.AssemblyInfoInputs.cache
@@ -107,4 +105,6 @@
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/OresundTicketLibraryTest.pdb
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/OresundTicketLibraryTest.genruntimeconfig.cache
 /Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/obj/Debug/net9.0/ref/OresundTicketLibraryTest.dll
-/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StorebæltTicketLibrary.xml
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StoreBaeltTicketLibrary.dll
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StoreBaeltTicketLibrary.pdb
+/Users/sams/Desktop/ClassLibrary6/OresundTicketLibraryTest/bin/Debug/net9.0/StoreBaeltTicketLibrary.xml
