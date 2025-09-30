@@ -8,7 +8,7 @@ namespace VehicleUnitTest
         public void VehicleBase_PolymorphicTests()
         {
             // Arrange
-            var car = new Car("CA67886", DateTime.Now, false);
+            var car = new Car("CA12345", DateTime.Now, false);
             var mC = new MC("BX80555", DateTime.Now, false);
 
             // Act

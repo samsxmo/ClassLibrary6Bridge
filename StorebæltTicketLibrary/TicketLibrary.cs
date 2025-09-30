@@ -28,7 +28,9 @@ namespace StorebæltLibrary
             HasBrobizz = hasBrobizz;
             Date = date;
         }
-        
+
+      
+
         /// <summary>
         /// 
         /// </summary>
