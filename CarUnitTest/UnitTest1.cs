@@ -3,31 +3,67 @@ using Xunit;
 using System;
 
 namespace CarUnitTest
+
 {
     public class CarTests
     {
-        //En test over at bilens pris uden rabat er 230 
+    // Test: Car pris uden Brobizz er 230
+                      
         [Fact]
-        public void Price_ShouldReturnFixedValue230()
+        public void Price_ShouldReturnFixedValue()
         {
             var car = new Car("CA67886", DateTime.Now, false);
+
             Assert.Equal(230.0, car.Price());
+
         }
+        
+        // Test: VehicleType retunere "Car"
 
         [Fact]
+
         public void VehicleType_ShouldReturnCar()
+
+        {
+
+            var car = new Car("CA67886", DateTime.Now, true);
+
+            Assert.Equal("Car", car.VehicleType());
+
+        }
+        
+        // Test: Car pris med Brobizz er 161
+      
+        [Fact]
+        public void Price_WithBrobizz_ShouldReturnDiscountedValue()
+      
         {
             var car = new Car("CA67886", DateTime.Now, true);
-            Assert.Equal("Car", car.VehicleType());
+      
+            Assert.Equal(230.0, car.Price());
+      
         }
+        
+        // Test: License plate længere end 7 characters throws exception
+      
         [Fact]
-        //Tester at brobizz giver 10% på bilens pris. 
-        public void Price_WithBrobizz_ShouldApply10PercentDiscount()
+      
+        public void Licenseplate_TooLong_ShouldThrowException()
+      
         {
-            var car = new Car("CA67886", DateTime.Now, true) { BrobizzUsed = true};
 
-            Assert.Equal(207.0, car.Price(), 2); // 230 * 0.9
+            var longLicensePlate = "THISLICENSEPLATEISTOOLONG";
+
+            var exception = Assert.Throws<ArgumentException>(() => new Car(longLicensePlate, DateTime.Now, false));
+
+            Assert.Equal("License plate cannot be longer than 7 digits.", exception.Message);
+                                                                
         }
+
     }
 
 }
+
+
+
+

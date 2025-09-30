@@ -1,7 +1,6 @@
-﻿using System;
-using Xunit;
-using ClassLibrary6;
-namespace ClassLibrary6
+﻿using ClassLibrary6;
+
+namespace VehicleUnitTest
 {
     public sealed class VehicleTests
     {
@@ -19,12 +18,11 @@ namespace ClassLibrary6
             var mCType = mC.VehicleType();
 
             // Assert
-            Assert.Equal(230.0, carPrice);
-            Assert.Equal(120.0, mCPrice);
+            Assert.Equal(230.0, carPrice,0.001);
+            Assert.Equal(120.0, mCPrice,0.001);
             Assert.Equal("Car", carType);
             Assert.Equal("MC", mCType);
+            
         }
     }
 }
-
-   

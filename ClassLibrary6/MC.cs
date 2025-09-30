@@ -6,22 +6,23 @@ public class MC : Vehicle
         : base(licenseplate, date, brobizzUsed)
     {
     }
-
-    //protected override double GetBasePrice()
-    //{
-      //return 120.0;
-   // }
     
+    public override double Price()
+    {
+        double basePrice = 120.0;
 
-    //public override string VehicleType()
-    //{
-    //return "MC";
-    //}
-
-    protected override double GetBasePrice() => 120.0;
+        if (Date.DayOfWeek == DayOfWeek.Saturday || Date.DayOfWeek == DayOfWeek.Sunday)
+        {
+            basePrice *= 0.80; // 20% weekendrabat
+        }
+        return ApplyBrobizzDiscount(basePrice); // Brobizz-rabat bagefter
+    }
 
     // Køretøjstype
-    public override string VehicleType() => "MC";
+    public override string VehicleType()
+    {
+        return "MC";
+    }
 
 }
 

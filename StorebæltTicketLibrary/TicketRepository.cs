@@ -1,9 +1,3 @@
-//namespace StorebæltLibrary;
-
-//public class TicketRepository
-//{
-    
-//}
 
 using System;
 using System.Collections.Generic;
@@ -13,27 +7,49 @@ using StorebæltLibrary;
 
 namespace StorebæltRepository
 {
-    public static class TicketRepository
+    /// <summary>
+    /// 
+    /// </summary>
+    public class TicketRepository
     {
-        // Statisk liste over alle billetter
-        private static List<Vehicle> tickets = new();
+        private List<Vehicle> tickets = new List<Vehicle>();
 
-        // Tilføj ny billet
-        public static void AddTicket(Vehicle ticket)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ticket"></param>
+        public void AddTicket(Vehicle ticket)
         {
             tickets.Add(ticket);
         }
 
-        // Hent alle billetter
-        public static List<Vehicle> GetAllTickets()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public List<Vehicle> GetAllTickets()
         {
             return tickets;
         }
 
-        // Hent billetter for en bestemt nummerplade
-        public static List<Vehicle> GetTicketsByLicense(string licenseplate)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public double GetTotalRevenue()
         {
-            return tickets.Where(t => t.Licenseplate.Equals(licenseplate, StringComparison.OrdinalIgnoreCase)).ToList();
+            return tickets.Sum(ticket => ticket.Price());
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="vehicleType"></param>
+        /// <returns></returns>
+        public int GetTicketCountByType(string vehicleType)
+        {
+            return tickets.Count(ticket => ticket.VehicleType() == vehicleType);
         }
     }
 }
+ 

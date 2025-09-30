@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StorebæltTicketLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38a23cd3fdcd3d0e25c53019c0f57f8387aa0567")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b42edef3657e232e05ac6b9de74e6b08f272b5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("StorebæltTicketLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StorebæltTicketLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

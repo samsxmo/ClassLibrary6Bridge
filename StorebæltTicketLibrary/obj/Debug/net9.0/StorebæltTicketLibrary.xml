@@ -4,5 +4,86 @@
         <name>StorebæltTicketLibrary</name>
     </assembly>
     <members>
+        <member name="T:StorebæltLibrary.ITicketRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebæltLibrary.ITicketRepository.AddVehicle(ClassLibrary6.Vehicle)">
+            <summary>
+            
+            </summary>
+            <param name="ticket"></param>
+        </member>
+        <member name="M:StorebæltLibrary.ITicketRepository.GetAllTickets">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebæltLibrary.ITicketRepository.GetVehiclesByLicenseplate(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="licenseplate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:StorebæltLibrary.TicketLibrary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebæltLibrary.TicketLibrary.#ctor(System.String,System.String,System.Boolean,System.DateTime)">
+            <summary>
+            
+            </summary>
+            <param name="vehicleType"></param>
+            <param name="licensePlate"></param>
+            <param name="hasBrobizz"></param>
+            <param name="date"></param>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:StorebæltLibrary.TicketLibrary.Price">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebæltLibrary.TicketLibrary.VehicleType">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:StorebæltRepository.TicketRepository">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:StorebæltRepository.TicketRepository.AddTicket(ClassLibrary6.Vehicle)">
+            <summary>
+            
+            </summary>
+            <param name="ticket"></param>
+        </member>
+        <member name="M:StorebæltRepository.TicketRepository.GetAllTickets">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebæltRepository.TicketRepository.GetTotalRevenue">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:StorebæltRepository.TicketRepository.GetTicketCountByType(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="vehicleType"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

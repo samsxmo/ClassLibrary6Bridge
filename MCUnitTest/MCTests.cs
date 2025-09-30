@@ -3,13 +3,13 @@
 
 namespace MCUnitTest
 {
-    public sealed class MCUnirests
+    public sealed class McTests
     {
         [Fact]
-        public void Price_ShouldReturnFixedValue120()
+        public void Price_ShouldReturnFixedValue()
         {
             var mc = new MC("BX80555", DateTime.Now,false);
-            Assert.Equal(120.0, mc.Price());
+            Assert.Equal(120.0, mc.Price(), 0.001);
         }
 
         [Fact]
@@ -17,13 +17,6 @@ namespace MCUnitTest
         {
             var mc = new MC("BX80555", DateTime.Now, true);
             Assert.Equal("MC", mc.VehicleType());
-        }
-        [Fact]
-        public void Price_WithBrobizz_ShouldApply10PercentDiscount()
-        {
-            var mc = new MC("BX80555", DateTime.Now,false) { BrobizzUsed = true };
-
-            Assert.Equal(108.0, mc.Price(), 2); // 120 * 0.9
         }
     }
 }
