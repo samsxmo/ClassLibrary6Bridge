@@ -1,7 +1,8 @@
 ﻿using OresundTicketLibrary;
 using Xunit;
 
-public class OresundTicketLibraryTest
+
+public sealed class OresundTicketLibraryTest
 {
     [Fact]
     public void Price_WithoutBrobizz_ShouldBe460()

@@ -1,10 +1,9 @@
 ﻿using ClassLibrary6;
-using Xunit;
-using System;
+
 
 namespace MCUnitTest
 {
-    public class MCTests
+    public sealed class MCUnirests
     {
         [Fact]
         public void Price_ShouldReturnFixedValue120()
