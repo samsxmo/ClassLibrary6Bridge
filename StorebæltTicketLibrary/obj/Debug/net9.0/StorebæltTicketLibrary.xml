@@ -9,7 +9,7 @@
             
             </summary>
         </member>
-        <member name="M:StorebæltLibrary.ITicketRepository.AddVehicle(ClassLibrary6.Vehicle)">
+        <member name="M:StorebæltLibrary.ITicketRepository.AddTicket(StorebæltLibrary.TicketLibrary)">
             <summary>
             
             </summary>
@@ -21,7 +21,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:StorebæltLibrary.ITicketRepository.GetVehiclesByLicenseplate(System.String)">
+        <member name="M:StorebæltLibrary.ITicketRepository.GetTicketsByLicenseplate(System.String)">
             <summary>
             
             </summary>
@@ -55,34 +55,28 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="T:StorebæltRepository.TicketRepository">
+        <member name="T:StorebæltLibrary.TicketRepository">
             <summary>
             
             </summary>
         </member>
-        <member name="M:StorebæltRepository.TicketRepository.AddTicket(ClassLibrary6.Vehicle)">
+        <member name="M:StorebæltLibrary.TicketRepository.AddTicket(StorebæltLibrary.TicketLibrary)">
             <summary>
             
             </summary>
             <param name="ticket"></param>
         </member>
-        <member name="M:StorebæltRepository.TicketRepository.GetAllTickets">
+        <member name="M:StorebæltLibrary.TicketRepository.GetAllTickets">
             <summary>
             
             </summary>
             <returns></returns>
         </member>
-        <member name="M:StorebæltRepository.TicketRepository.GetTotalRevenue">
+        <member name="M:StorebæltLibrary.TicketRepository.GetTicketsByLicenseplate(System.String)">
             <summary>
             
             </summary>
-            <returns></returns>
-        </member>
-        <member name="M:StorebæltRepository.TicketRepository.GetTicketCountByType(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="vehicleType"></param>
+            <param name="licenseplate"></param>
             <returns></returns>
         </member>
     </members>

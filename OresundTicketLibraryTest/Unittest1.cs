@@ -1,7 +1,4 @@
 ﻿using OresundTicketLibrary;
-using Xunit;
-using System;
-
 
 namespace OresundTicketLibraryTest
 {

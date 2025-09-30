@@ -1,55 +1,40 @@
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using ClassLibrary6;
-using StorebæltLibrary;
-
-namespace StorebæltRepository
+namespace StorebæltLibrary
 {
     /// <summary>
     /// 
     /// </summary>
-    public class TicketRepository
+    public class TicketRepository : ITicketRepository
     {
-        private List<Vehicle> tickets = new List<Vehicle>();
+        private List<TicketLibrary> _tickets = new List<TicketLibrary>();
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="ticket"></param>
-        public void AddTicket(Vehicle ticket)
+        public void AddTicket(TicketLibrary ticket)
         {
-            tickets.Add(ticket);
+            _tickets.Add(ticket);
         }
 
         /// <summary>
         /// 
         /// </summary>
         /// <returns></returns>
-        public List<Vehicle> GetAllTickets()
+        public List<TicketLibrary> GetAllTickets()
         {
-            return tickets;
+            return _tickets.ToList();
         }
 
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="licenseplate"></param>
         /// <returns></returns>
-        public double GetTotalRevenue()
+        public List<TicketLibrary> GetTicketsByLicenseplate(string licenseplate)
         {
-            return tickets.Sum(ticket => ticket.Price());
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="vehicleType"></param>
-        /// <returns></returns>
-        public int GetTicketCountByType(string vehicleType)
-        {
-            return tickets.Count(ticket => ticket.VehicleType() == vehicleType);
+            return _tickets
+                .Where(t => t.Licenseplate.Equals(licenseplate, StringComparison.OrdinalIgnoreCase))
+                .ToList();
         }
     }
 }
- 
