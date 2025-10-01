@@ -3,7 +3,7 @@ using StorebaeltLibrary;
 
 namespace StorebaeltTicketLibraryTest
 {
-    public class TicketRepositoryTests
+    public sealed class TicketRepositoryTests
     {
         private ITicketRepository _repository;
 
@@ -25,7 +25,7 @@ namespace StorebaeltTicketLibraryTest
         public void GetTicketsByLicenseplate_ShouldReturnAllAdded()
         {
             var car = new TicketLibrary("Car","CA12345",true, DateTime.Now);
-            var mC = new TicketLibrary("MC","MC12345", true, DateTime.Now);
+            var mC = new TicketLibrary("MC","BX80555", true, DateTime.Now);
             
             _repository.AddTicket(car);
             _repository.AddTicket(mC);

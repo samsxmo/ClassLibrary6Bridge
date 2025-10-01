@@ -5,14 +5,14 @@ using System;
 namespace CarUnitTest
 
 {
-    public class CarTests
+    public sealed class CarTests
     {
     // Test: Car pris uden Brobizz er 230
                       
         [Fact]
         public void Price_ShouldReturnFixedValue()
         {
-            var car = new Car("CA67886", DateTime.Now, false);
+            var car = new Car("CA12345", DateTime.Now, false);
 
             Assert.Equal(230.0, car.Price());
 
@@ -26,7 +26,7 @@ namespace CarUnitTest
 
         {
 
-            var car = new Car("CA67886", DateTime.Now, true);
+            var car = new Car("CA12345", DateTime.Now, true);
 
             Assert.Equal("Car", car.VehicleType());
 
@@ -38,7 +38,7 @@ namespace CarUnitTest
         public void Price_WithBrobizz_ShouldReturnDiscountedValue()
       
         {
-            var car = new Car("CA67886", DateTime.Now, true);
+            var car = new Car("CA12345", DateTime.Now, true);
       
             Assert.Equal(230.0, car.Price());
       

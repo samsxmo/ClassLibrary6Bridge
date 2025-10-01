@@ -10,16 +10,6 @@ public class Car : Vehicle
         if (licenseplate.Length > 7)
             throw new ArgumentException("License plate cannot be longer than 7 characters.");
     }
-//public override double Price()
-    //{
-       // return 230.0;
-   // }
-
-
-    //public override string VehicleType()
-    //{
-        //return "Car";
-   // }
     
    // Grundpris for Car
    

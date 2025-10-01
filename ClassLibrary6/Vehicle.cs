@@ -14,10 +14,9 @@ public abstract class Vehicle
         Licenseplate = licenseplate;    
         Date = date;
         HasBrobizz = hasBrobizz;
-    
     }
     
-    //public abstract double Price();
+
     public abstract string VehicleType();
     public abstract double Price();
     protected double ApplyBrobizzDiscount(double price)

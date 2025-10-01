@@ -28,21 +28,21 @@ namespace OresundTicketLibraryTest
         [Fact]
         public void OresundMC_WithoutBrobizz_ShouldBe235()
         {
-            var mc = new OresundMC("MC12345", DateTime.Now, false);
+            var mc = new OresundMC("BX80555", DateTime.Now, false);
             Assert.Equal(235.0, mc.Price());
         }
 
         [Fact]
         public void OresundMC_WithBrobizz_ShouldBe92()
         {
-            var mc = new OresundMC("MC12345", DateTime.Now, true);
+            var mc = new OresundMC("BX80555", DateTime.Now, true);
             Assert.Equal(92.0, mc.Price());
         }
 
         [Fact]
         public void OresundMC_Type_ShouldBeCorrect()
         {
-            var mc = new OresundMC("MC12345", DateTime.Now, false);
+            var mc = new OresundMC("BX80555", DateTime.Now, false);
             Assert.Equal("Oresund MC", mc.VehicleType());
         }
     }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreBaeltTicketLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06bc5e3c97577fdf6a772ffbd4bd67da0e3d3363")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7af2a7ad54fc9653d5c1cb4be0e9c32fda1e49a")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreBaeltTicketLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreBaeltTicketLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
