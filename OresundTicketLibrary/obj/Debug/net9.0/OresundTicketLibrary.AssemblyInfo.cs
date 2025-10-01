@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OresundTicketLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7af2a7ad54fc9653d5c1cb4be0e9c32fda1e49a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bd23a2b66c3f1b08b0a3e47c60fb6fc9c537c97")]
 [assembly: System.Reflection.AssemblyProductAttribute("OresundTicketLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OresundTicketLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

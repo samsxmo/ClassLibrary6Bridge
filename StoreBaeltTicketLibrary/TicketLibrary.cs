@@ -30,7 +30,7 @@ namespace StorebaeltLibrary
         }
 
         /// <summary>
-        /// 
+        /// Beregner prisen for billetten baseret på ugedag og Brobizz rabat.
         /// </summary>
         /// <returns></returns>
         public override double Price()
@@ -46,7 +46,7 @@ namespace StorebaeltLibrary
         }
 
         /// <summary>
-        /// 
+        /// Returnerer Car
         /// </summary>
         /// <returns></returns>
         public override string VehicleType()

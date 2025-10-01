@@ -1,10 +1,15 @@
 namespace ClassLibrary6;
 
+/// <summary>
+/// En abstrakt baseklasse for alle køretøjstyper, der definerer fælles egenskaber. 
+/// </summary>
 public abstract class Vehicle
 {
     public string Licenseplate { get; set; }
     public DateTime Date  { get; set; }
     public bool HasBrobizz {get; set;}
+    
+    //Intilasering af properties
     protected Vehicle(string licenseplate, DateTime date,bool hasBrobizz)
     {
         if (licenseplate.Length < 7)
