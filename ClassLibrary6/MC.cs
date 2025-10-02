@@ -2,8 +2,8 @@ namespace ClassLibrary6;
 
 public class MC : Vehicle
 {
-    public MC(string licenseplate, DateTime date, bool brobizzUsed)
-        : base(licenseplate, date, brobizzUsed)
+    public MC(string licenseplate, DateTime date, bool hasBrobizz)
+        : base(licenseplate, date, hasBrobizz)
     {
     }
     

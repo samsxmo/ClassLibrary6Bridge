@@ -2,8 +2,8 @@
 
 public class Car : Vehicle
 {
-    public Car(string licenseplate, DateTime date, bool brobizzUsed)
-        : base(licenseplate, date, brobizzUsed)
+    public Car(string licenseplate, DateTime date, bool hasBrobizz)
+        : base(licenseplate, date, hasBrobizz)
     {
         if (string.IsNullOrEmpty(licenseplate))
             throw new ArgumentException("License plate cannot be empty.");
